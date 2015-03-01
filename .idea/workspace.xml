@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bc3d4dd-6350-4eba-a54f-c5e3909d6ad8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailpage.html" afterPath="$PROJECT_DIR$/detailpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favorites.html" afterPath="$PROJECT_DIR$/favorites.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchresults.html" afterPath="$PROJECT_DIR$/searchresults.html" />
-    </list>
+    <list default="true" id="6bc3d4dd-6350-4eba-a54f-c5e3909d6ad8" name="Default" comment="" />
     <ignored path="aperales.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,7 +194,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1011" height="843" extended-state="0" />
+    <frame x="8" y="23" width="1011" height="843" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
