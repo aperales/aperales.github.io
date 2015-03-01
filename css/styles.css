@@ -1,0 +1,214 @@
+/* Project3 */
+
+
+/* .page class for border and background image*/
+.page{
+
+	height: auto;
+	border: 2px solid grey;
+	border-radius: 15px;
+	box-shadow: -2px 4px 8px 6px #EC9905;
+	height: auto;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	opacity: .45;
+}
+
+
+/*Body Layout */
+body {
+/*Back ground color and border with full page backgound image added*/ 
+	background-color: #5063F2;
+
+
+	height: 300px;
+
+	color: black;
+	width: 90%;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+
+}
+
+/* Paragraph font style and size*/
+p {
+	font-family: Open Sans Condensed;
+	font-size: 1.000em;
+	font-weight: bold;
+}	
+
+/*Gallery alignment*/	
+#Gall{
+	text-align: center;
+}
+
+
+
+/*Heading 1 font code*/ 
+
+h1 {
+	font-size: 45px;
+	font-family: Georgia, Times, sans serif;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px blue;
+	text-align: center;
+	padding: 55px;
+}
+ul {
+	list-style-type: none;
+	margin: 5px;
+}
+
+/*heading 2 fond and border and background color*/
+h2 {
+	text-align: center;
+	font-family: Open Sans Condensed;
+	font-size: 2.270em;
+	font-weight: 900;
+	
+	
+	
+}
+.p1{
+	float: left;
+	width: 300px;
+	margin:  5px 10px;
+}
+/*h3 font */	
+h3 {
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*List alignment/ font */
+ol{
+	text-align: center;
+	list-style-type: lower-roman;
+	list-style-position: inside;
+}
+
+/*Images/links parameters and color*/
+
+a img{
+	border: 2px solid black;
+}
+a:link{
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	color: #4A5A6B
+}
+a:active{
+	color: #FF7A3C;
+}
+
+/*ids for gallery column/float use*/
+#img1 {
+	float: left;
+	width: 450px;
+	margin: 10px;
+}
+#img2{
+	float: left; 
+	width: 450px;
+	margin: 10px;
+}
+/*id for resource clear form column float*/
+
+footer{/*footer style*/
+	clear: both;
+}
+table{/*table style*/
+	border-spacing: 0;
+	width: 400px;
+	border-collapse: separate;
+	padding: 6px 20px 6px 11px;
+	border-spacing: 2px;
+	border-color: #000;
+	margin: auto;
+}
+th{/*table header style*/
+	text-align: left;
+	font-size: 120%;
+	border-top: 5px solid #000;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	text-shadow: 2px 2px 2px #fff;
+}
+tr{/*table cells style*/
+	text-align: left;
+	font-size: 110%;
+	background-color: #ff530d;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+	text-shadow: 2px 2px 2px #fff;
+	
+	
+}
+tr.even{/*zebra style for even rows*/
+	background-color: #ff9a16;
+}
+
+tr:hover{/*hover effect for table*/
+	background: #fff;
+}
+fieldset{/*fieldset style for form*/
+	width: 800px;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 1px solid #d6d6d6;
+	background-color: #ffffff;
+	line-height: 1.6em;
+	border-radius: 5px;
+	
+}
+legend{/*italize text for legend*/
+	font-style: italic;
+}
+
+input[type="submit"]{/*input button style*/
+color: #ff530d;
+text-shadow: 0px 1px 1px #ffffff;
+border-bottom: 2px solid #b2b2b2;
+background-color: #919191;
+background: -webkit-gradient(linear, left top, left bottom, from(#919191), to(#fff));
+}
+input:hover[type="submit"]{/*hover button style*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#919191));
+}
+input:focus[type="text"]{
+	background:  #EEFF0D;
+}
+.search{/*search bar top of page style*/
+	width: 100px;
+	border: none;
+	background: none;
+
+}
+
+label{
+font-weight: bold;
+color: white;
+
+}
+.tabs{
+text-align: center;
+border-radius: 5px;
+
+}
+
+.item{
+	background-color: #1600f4;
+
+}

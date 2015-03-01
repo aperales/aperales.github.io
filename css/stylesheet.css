@@ -1,0 +1,158 @@
+body{
+    font-family:'Raleway',Arial,sans-serif;
+    font-weight:600;
+    background-color:#5063F2;
+
+}
+#logIn{
+
+    background-color: #9B5CF2;
+    width: 500px;
+
+    border: none;
+}
+
+.search{
+    margin: 0 auto;
+    width: 250px;
+
+}
+
+.searchb{
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    background-color: #003f54;
+    border: none;
+
+}
+
+.button{
+
+    font-family:'Raleway',Helvetica,Arial,sans-serif;
+
+}
+#heading{
+    color: black;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h4{
+    font-size: 150%;
+}
+
+.button-group li{
+
+    padding-top:3%;
+}
+
+.button-group a{
+
+    color:rgba(0,0,0,1);
+    background-color:transparent;
+
+}
+
+
+.button-group a:hover{
+
+    color:rgba(0,0,0,0.4);
+    background-color:transparent;
+}
+.button-group{
+    float:none;
+}
+@media only screen and (min-width: 40.063em) {
+
+    .button-group{
+        float:right;
+    }}
+.namelogo{
+    padding:20px 10px 0px 10px;
+}
+@media only screen and (min-width: 40.063em) {
+
+    .namelogo{
+        padding-bottom:20px;
+    }}
+
+.namelogo h1{
+
+    font-size:1.5em;
+    font-weight:600;
+    text-align:center;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .namelogo h1{
+        font-size:16px;
+        text-align:left;
+    }}
+
+@media only screen and (min-width: 64.063em) {
+    .namelogo h1{
+        font-size:50px;
+        text-align:left;
+    }}
+.hero{
+    background:url(../images/city.jpg);
+    background-size:cover;
+    box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+    height:80%;}
+.detail{
+    background:url(../images/pub-bar1.jpg);
+    background-size:cover;
+    box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+    height:80%;}
+}
+.intro-text{
+    padding-top:40%;
+    color:rgba(255,255,255,1);
+    text-align:center;
+}
+@media only screen and (min-width: 40.063em) {
+    .intro-text{
+        padding-top:25%;
+    }}
+@media only screen and (min-width: 64.063em) {
+    .intro-text{
+        padding-top:18%;
+    }}.intro-text p{
+          font-family:'Shadows Into Light',cursive;
+          font-size:44px;
+      }
+.about,.work,.contact{padding:50px 0 0 0;
+}
+.about img{
+    width:250px;
+    height:250px;
+    border-radius:150px;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+}
+.work img:hover{
+    opacity:0.5;
+
+    -o-transition:0.3s ease;
+    transition:0.3s ease;
+}
+.work li{
+    height:140px;
+    overflow:hidden;
+}
+hr{
+    border:0;
+    height:1px;
+    background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+    opacity:0.8;
+}
+footer{
+    padding:80px 0 10px 0;
+}
+footer a:hover{
+    color:rgba(0,0,0,0.4);
+    background-color:transparent;}
+
